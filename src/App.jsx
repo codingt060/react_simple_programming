@@ -1,12 +1,13 @@
-import MainLayout from "./layouts/MainLayout";
-import About from "./pages/About";
-
+import About from "./About";
 function App() {
+
+
   return (
-    <MainLayout>
+    <>
       <About />
-    </MainLayout>
-  );
+     
+    </>
+  )
 }
 
-export default App;
+export default App
