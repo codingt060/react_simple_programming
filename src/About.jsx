@@ -1,46 +1,63 @@
 
+
+
 function About() {
-  return (
-    <div className="container">
-      <div className="row">
-        <div className="col-sm-4">
-          <h3>Column 1</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-        </div>
-        <div className="col-sm-4">
-          <h3>Column 2</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-        </div>
-        <div className="col-sm-4">
-          <h3>Column 3</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-        </div>
-      </div>
-    </div>
-  );
+    return (
+        <>
+
+     
+            <div className="container mt-5">
+                <div className="row">
+                    <div className="col-sm-4">
+                        <h3>Who We Are</h3>
+                        <p>
+                            We are a passionate team dedicated to delivering
+                            innovative solutions that help individuals and
+                            businesses achieve their goals. Our focus is on
+                            quality, reliability, and customer satisfaction.
+                        </p>
+                        <p>
+                            With a commitment to continuous improvement, we
+                            strive to create products and services that make a
+                            positive impact in everyday life.
+                        </p>
+                    </div>
+
+                    <div className="col-sm-4">
+                        <h3>Our Mission</h3>
+                        <p>
+                            Our mission is to empower people through technology
+                            by providing user-friendly, efficient, and scalable
+                            solutions. We believe in building meaningful
+                            experiences that solve real-world challenges.
+                        </p>
+                        <p>
+                            By combining creativity, innovation, and expertise,
+                            we aim to help our customers grow and succeed in a
+                            rapidly changing digital world.
+                        </p>
+                    </div>
+
+                    <div className="col-sm-4">
+                        <h3>Why Choose Us</h3>
+                        <p>
+                            We prioritize customer needs and deliver solutions
+                            tailored to their requirements. Our team works with
+                            dedication, transparency, and professionalism to
+                            ensure the best possible results.
+                        </p>
+                        <p>
+                            From planning to execution, we focus on excellence,
+                            timely delivery, and long-term relationships built
+                            on trust and value.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+         
+        </>
+    );
 }
 
 export default About;
-
-
-           
-// ├── node_modules/       # Project dependencies (managed by npm/yarn)
-// ├── public/             # Static assets served directly (favicon, robots.txt)
-// ├── src/                # 🚀 Where 99% of your coding happens
-// │   ├── assets/         # Images, icons, global fonts
-// │   ├── components/     # Reusable UI elements (Buttons, Cards, Inputs)
-// │   ├── context/        # Global state management files
-// │   ├── hooks/          # Custom React hooks (useAuth, useFetch)
-// │   ├── layouts/        # Page structures (Navbar + Sidebar + Footer)
-// │   ├── pages/          # Individual views/routes (Home, Dashboard, Settings)
-// │   ├── services/       # API call definitions (Axios/Fetch setups)
-// │   ├── utils/          # Helper functions (date formatting, math helpers)
-// │   ├── App.jsx         # The main application component
-// │   └── main.jsx        # The entry point where React mounts to the DOM
-// ├── .gitignore          # Files to ignore in Git
-// ├── index.html          # The single HTML file your app injects into
-// ├── package.json        # Project metadata and script commands
-// └── vite.config.js      # Build tool configurations
-
-
-
