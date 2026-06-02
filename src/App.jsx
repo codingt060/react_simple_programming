@@ -1,21 +1,27 @@
 import './assets/custom.css';
-import About from "./About";
-import Service from "./Service";
-import Header from "./layout/Header";
-import Footer from "./layout/Footer";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import Header from './layouts/Header';
+import Footer from './layouts/Footer';
+
+import Home from './pages/Home';
+import About from './pages/About';
+import Service from './pages/Service';
 
 function App() {
-
-
   return (
-    <>
+    <BrowserRouter>
       <Header />
-      <About />
-      <Service />
-      <Footer />
 
-    </>
-  )
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/service" element={<Service />} />
+      </Routes>
+
+      <Footer />
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
